@@ -1,12 +1,6 @@
-gitsta
+Sabayon
 ======
-Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Mainly designed for programmers, but suitable for any bloggers.
-
-![screenshot](screenshot.png)
-
-### Download
-- [GitHub Releases](https://github.com/nehalist/gitsta/releases)
-- [WordPress.org](https://wordpress.org/themes/gitsta)
+A customized version of the gitsta theme designed for my blog on [Sabayon](http://linux.x10host.com/blog/). It features the code styling of [Gentoo Wiki's Tyrian theme](https://gitweb.gentoo.org/proj/gentoo-wiki-tyrian.git/). To invoke this code styling run `<div class = "code"></div>`.
 
 ### Features
 * Responsive
@@ -35,13 +29,12 @@ To use the icons just set the "Title Attribute" of the menu item to the desired 
 * This theme requires at least PHP 5.3, due the usage of closures within the `functions.php`
 * Since this theme was created with markdown in mind, you should use some kind of markdown plugin (I'm pretty satisfied with [WP-Markdown](https://wordpress.org/plugins/wp-markdown/)). If you don't like to use markdown, you can disable the markdown support within the theme settings.
 
-### Like the theme?
-Rate it on [WordPress.org](https://wordpress.org/themes/gitsta) or star it on [GitHub](https://github.com/nehalist/gitsta)! Thanks!
-
 ### Credits
 * [Bootstrap](http://www.getbootstrap.com)
 * [GitHub](http://www.github.com)
+* [Kevin Hirczy](https://github.com/nehalist)
 * [Marked](https://github.com/chjj/marked)
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 * [TGM Plugin Activation](http://tgmpluginactivation.com/)
+* [Tyrian theme developers](https://gitweb.gentoo.org/proj/gentoo-wiki-tyrian.git/)
 * [wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker)
