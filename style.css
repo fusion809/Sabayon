@@ -1,10 +1,10 @@
 /*
-Theme Name: gitsta
+Theme Name: Sabayon Gitsta
 Theme URI: https://github.com/nehalist/gitsta
-Author: Kevin Hirczy
-Author URI: http://nehalist.io
+Author: Brenton Horne
+Original author: Kevin Hirczy
 Description: Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Mainly designed for programmers, but suitable for any bloggers.
-Version: 1.4.0
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: white,responsive-layout,theme-options,custom-menu,full-width-template,threaded-comments,one-column,two-columns,translation-ready,sticky-post
@@ -17,12 +17,8 @@ Tags: white,responsive-layout,theme-options,custom-menu,full-width-template,thre
 |----------------------------------------------------------
 */
 body            { padding-top: 70px; }
-code            { background-color: #f5f5f5 !important; }
+code            { background-color: #dddaec; color: white; }
 img#wpstats     { display: none; }
-code            {
-    color: #000 !important;
-    border: 1px solid #ddd;
-}
 pre > code      {
     border: 0 !important;
 }
@@ -62,7 +58,8 @@ div.item        { margin-bottom: 50px; }
 |----------------------------------------------------------
 */
 div.code-box {
-    background-color: #eee;
+    background-color: #dddaec;
+    color: white;
     border-radius: 3px;
     padding: 3px;
     margin-bottom: 18px;
@@ -251,10 +248,6 @@ h2.widgettitle {
     background-color: transparent;
     border-left: 2px solid #563d7c;
     border-radius: 0;
-}
-.comment-author-link a,
-.comment-author-link a:hover {
-    border-left: 0 !important;
 }
 .widget ul li ul a {
     border-left: 0;
