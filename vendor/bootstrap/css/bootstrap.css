@@ -100,7 +100,6 @@ hr {
 pre {
   overflow: auto;
 }
-code,
 kbd,
 pre,
 samp {
@@ -693,43 +692,39 @@ samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: white;
-  white-space: nowrap;
-  background-color: black;
-  border-radius: 4px;
+  background-color: #333;
+	color: white;
+	border-radius: 4px;
+	padding: 4px;
+	margin-bottom: 10px;
+	overflow: auto;
 }
 
-code1 {
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: none;
-  background-origin: padding-box;
-  background-size: auto;
-  border-bottom-color: rgb(255, 255, 255);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-style: none;
-  border-bottom-width: 0px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  border-image-source: none;
-  border-image-width: 1;
-  border-left-color: rgb(255, 255, 255);
-  border-left-style: none;
-  border-left-width: 0px;
-  border-right-color: rgb(255, 255, 255);
-  border-right-style: none;
-  border-right-width: 0px;
-  border-top-color: rgb(255, 255, 255);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-top-style: none;
-  border-top-width: 0px;
-  box-sizing: border-box;
+div.code {
+  background-color: #333;
+	color: white;
+	border-radius: 4px;
+	padding: 4px;
+	margin-bottom: 10px;
+	overflow: auto;
+  font-family: monospace;
+}
+
+span.coder {
+  color: #ef2929;
+}
+
+span.codeu {
+  color: #4e9a06;
+}
+
+span.overlay {
+  background-color: #DCDCDC;
+  color: black;
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 10px;
+  font-family: monospace;
 }
 
 kbd {
