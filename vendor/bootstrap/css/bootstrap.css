@@ -693,20 +693,20 @@ samp {
 }
 code {
   background-color: #333;
-	color: white;
-	border-radius: 4px;
-	padding: 4px;
-	margin-bottom: 10px;
-	overflow: auto;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 10px;
+  overflow: auto;
 }
 
 div.code {
   background-color: #333;
-	color: white;
-	border-radius: 4px;
-	padding: 4px;
-	margin-bottom: 10px;
-	overflow: auto;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 10px;
+  overflow: auto;
   font-family: monospace;
 }
 
@@ -725,6 +725,16 @@ span.overlay {
   padding: 4px;
   margin-bottom: 10px;
   font-family: monospace;
+}
+
+span.note {
+  background-color: #ff4040;
+  color: black;
+  border-radius: 2px;
+  padding: 2px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  font-style: italic;
 }
 
 kbd {
