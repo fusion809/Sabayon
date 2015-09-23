@@ -727,7 +727,7 @@ span.overlay {
   font-family: monospace;
 }
 
-span.note {
+div.note {
   background-color: #ff4040;
   color: black;
   border-radius: 2px;
