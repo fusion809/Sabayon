@@ -727,6 +727,15 @@ span.overlay {
   font-family: monospace;
 }
 
+span.package {
+  background-color: #C0C0C0;
+  color: black;
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
 div.note {
   background-color: #ff4040;
   color: black;
