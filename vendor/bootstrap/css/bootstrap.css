@@ -1,6 +1,6 @@
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc., Copyright 2015 Brenton Horne
+ * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
@@ -15,6 +15,14 @@ body {
 }
 article,
 aside,
+caption {
+  width: 100%;
+  border: 1px solid #ff7474;
+  background-color: #ff7474;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 18px;
+}
 details,
 figcaption,
 figure,
@@ -175,11 +183,6 @@ textarea {
 optgroup {
   font-weight: bold;
 }
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-td,
 th {
   padding: 0;
 }
@@ -691,22 +694,24 @@ pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
 code {
   background-color: #333;
-  color: white;
-  border-radius: 4px;
-  padding: 4px;
-  margin-bottom: 10px;
-  overflow: auto;
+	color: white;
+	border-radius: 4px;
+	padding: 4px;
+	margin-bottom: 10px;
+	overflow: auto;
+  font-family: monospace;
 }
 
 div.code {
   background-color: #333;
-  color: white;
-  border-radius: 4px;
-  padding: 4px;
-  margin-bottom: 10px;
-  overflow: auto;
+	color: white;
+	border-radius: 4px;
+	padding: 4px;
+	margin-bottom: 10px;
+	overflow: auto;
   font-family: monospace;
 }
 
@@ -716,34 +721,6 @@ span.coder {
 
 span.codeu {
   color: #4e9a06;
-}
-
-span.overlay {
-  background-color: #DCDCDC;
-  color: black;
-  border-radius: 4px;
-  padding: 4px;
-  margin-bottom: 10px;
-  font-family: monospace;
-}
-
-span.package {
-  background-color: #C0C0C0;
-  color: black;
-  border-radius: 4px;
-  padding: 4px;
-  margin-bottom: 10px;
-  font-family: monospace;
-}
-
-div.note {
-  background-color: #ff4040;
-  color: black;
-  border-radius: 2px;
-  padding: 2px;
-  margin-bottom: 5px;
-  font-family: sans-serif;
-  font-style: italic;
 }
 
 kbd {
@@ -1446,16 +1423,33 @@ pre code {
     margin-left: 0;
   }
 }
+
+td {
+  vertical-align: middle;
+  border: 1px solid black;
+}
+  .no {
+    background-color: red;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .yes {
+    background-color: green;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+	.title {
+  	text-align: center;
+  	font-weight: bold;
+    font-size: 16px;
+  }
+
 table {
-  max-width: 100%;
-  background-color: transparent;
-}
-th {
-  text-align: left;
-}
-.table {
   width: 100%;
-  margin-bottom: 20px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -1464,9 +1458,9 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 1.42857143;
-  vertical-align: top;
+  vertical-align: middle;
   border-top: 1px solid #ddd;
+  border: 1px solid black;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
