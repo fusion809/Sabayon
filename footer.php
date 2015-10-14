@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <a href="#top" data-scroll="true">
-                        <i class="fa fa-arrow-up"></i> <?php _e('Back to top', 'gitsta'); ?>
+                        <i class="fa fa-arrow-up"></i> <?php _e('Back to top', 'sabayon-gitsta'); ?>
                     </a>
                 </div>
                 <div class="col-md-6 text-right">
