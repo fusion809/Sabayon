@@ -35,6 +35,7 @@ To use the icons just set the "Title Attribute" of the menu item to the desired 
 * [Kevin Hirczy](https://github.com/nehalist)
 * [Marked](https://github.com/chjj/marked)
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+* SuperUser user [jin](http://meta.stackoverflow.com/users/147574/jin)
 * [TGM Plugin Activation](http://tgmpluginactivation.com/)
 * [Tyrian theme developers](https://gitweb.gentoo.org/proj/gentoo-wiki-tyrian.git/)
 * [wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker)
