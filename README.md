@@ -1,6 +1,6 @@
 Sabayon
 ======
-A customized version of the gitsta theme designed for my blog on [Sabayon](http://linux.x10host.com/blog/). It features the code styling of [Gentoo Wiki's Tyrian theme](https://gitweb.gentoo.org/proj/gentoo-wiki-tyrian.git/). To invoke this code styling run `<div class = "code"></div>`. I use these tags instead of `<code></code>` because `<code></code>` does not do as solid of block styling (difficult to explain, this theme supports using the `<code></code>` tags with the same styling, so if you are wondering, test it out with several lines of code and you will see what I mean). 
+A customized version of the gitsta theme designed for my blog on [Sabayon](http://linux.x10host.com/blog/). It features the code styling of [Gentoo Wiki's Tyrian theme](https://gitweb.gentoo.org/proj/gentoo-wiki-tyrian.git/). To invoke this code styling use `<div class = "code"></div>` or `<code></code>`. This theme also provides the styling for keyboard buttons (invokved by `<kbd></kbd>`) used by StackExchange. 
 
 ### Features
 * Responsive
@@ -16,6 +16,7 @@ A customized version of the gitsta theme designed for my blog on [Sabayon](http:
 * Full-width template
 * Advanced menues (with icons, dividers, ...)
 * Well written and documented source code
+* Unique styling for keybindings and source code. 
 
 ### Menu
 The theme menu supports:
