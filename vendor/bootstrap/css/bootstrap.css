@@ -17,8 +17,8 @@ article,
 aside,
 caption {
   width: 100%;
-  border: 1px solid #ff7474;
-  background-color: #ff7474;
+  border: 1px solid #c69aff;
+  background-color: #c69aff;
   padding: 1em;
   font-weight: bold;
   font-size: 18px;
@@ -240,9 +240,7 @@ th {
     display: none;
   }
   .table td,
-  .table th {
-    background-color: #fff !important;
-  }
+  .table th,
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -1459,7 +1457,7 @@ table {
 .table > tfoot > tr > td {
   padding: 8px;
   vertical-align: middle;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #000;
   border: 1px solid black;
 }
 .table > thead > tr > th {
@@ -1489,7 +1487,7 @@ table {
   padding: 5px;
 }
 .table-bordered {
-  border: 1px solid #ddd;
+  border: 1px solid #000;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,

@@ -2,7 +2,7 @@
 Theme Name: Sabayon Gitsta
 Theme URI: https://github.com/nehalist/gitsta
 Authors: Brenton Horne, Kevin Hirczy
-Description: Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Designed for blogs on Linux or shell scripting in general. 
+Description: Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Designed for blogs on Linux or shell scripting in general.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -92,6 +92,12 @@ div.code-box pre {
     overflow-y: auto;
 }
 
+div.note {
+	padding: 1px;
+        border: 2px solid #ffa0a0;
+        background-color: #ffa0a0;
+}
+
 pre {
     border: 1px solid #cccccc !important;
     border-top: 0 !important;
@@ -110,7 +116,7 @@ pre code {
 | Required by WordPress
 |----------------------------------------------------------
 */
-.wp-caption         { 
+.wp-caption         {
   line-height: 105%;
 }
 
